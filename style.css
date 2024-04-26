@@ -18,10 +18,7 @@ body{
     background-color: #000;
     width: 340px;
     border-radius: 1rem; /* 1rem=16px */
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
+    margin-right: 0.5rem;
 }
 /* side-bar nav styling */
 .side-bar .nav{
@@ -85,8 +82,9 @@ body{
     height: 10rem;
     background-color: #232323;
     border-radius: 1rem;
-    margin: 0.5rem 0 0.5rem 0;
+    margin: 0.75rem 0 1.75rem 0;
     padding: 1rem 1.25rem;
+    height: fit-content;
 }
 .box-p1{
     font-size: 1rem;
